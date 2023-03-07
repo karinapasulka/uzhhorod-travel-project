@@ -1,5 +1,70 @@
-h1 {
+body {
   font-family: Poppins, sans-serif;
+  background-color: #272044;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/uzhhorod_hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 200px 0;
+}
+header h1 {
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 1;
+  margin: 30px 0px;
+}
+
+header h2 {
+  font-size: 33px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+header h3 {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.5;
+  letter-spacing: 5px;
+}
+header a {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  display: inline-block;
+  line-height: 1.5;
+  color: #272044;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: white;
+  padding: 16px 30px;
+  border-radius: 4px;
+}
+p {
   font-weight: 300;
-  font-size: 50px;
+}
+@media (max-width: 900px) {
+  header {
+    padding: 30px 0px;
+  }
+  header h1 {
+    font-size: 45px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  header h3 {
+    font-size: 12px;
+  }
+  header a {
+    font-size: 15px;
+    padding: 12px 26px;
+  }
 }
