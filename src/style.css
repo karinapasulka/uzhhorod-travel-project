@@ -6,52 +6,6 @@ body {
   max-width: 1400px;
   margin: 0 auto;
 }
-main {
-  background-color: white;
-}
-main h2 {
-  margin: 0;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 5px;
-  color: #272044;
-  opacity: 0.3;
-  text-transform: uppercase;
-}
-main h3 {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 1.5;
-  color: #272044;
-  margin: 0;
-}
-main p {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #272044;
-  opacity: 0.7;
-}
-section {
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 100px;
-}
-.grid {
-  display: grid;
-  grid-gap: 64px;
-}
-.grid-2-columns {
-  grid-template-columns: 1fr 1fr;
-}
-.grid-3-columns-with-first-narrow {
-  grid-template-columns: 1fr 2fr 2fr;
-}
-.img-responsive {
-  max-width: 100%;
-}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../images/uzhhorod_hero2.png");
@@ -95,6 +49,99 @@ header a {
 }
 p {
   font-weight: 300;
+}
+main {
+  background-color: white;
+}
+main h2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  color: #272044;
+  opacity: 0.3;
+  text-transform: uppercase;
+}
+main h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #272044;
+  margin: 0;
+}
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  margin: 2px;
+  line-height: 1;
+  color: #272044;
+}
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  margin: 2px;
+  line-height: 1;
+  color: #272044;
+}
+main p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #272044;
+  opacity: 0.7;
+}
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+}
+section.secondary {
+  background-color: #f8f8f8;
+}
+.grid {
+  display: grid;
+  grid-gap: 64px;
+}
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+.grid-3-columns-with-first-narrow {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+}
+.img-responsive {
+  max-width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  margin: 30px 0;
+}
+.card-body {
+  padding: 30px;
+}
+.card-footer {
+  padding: 0 30px 30px;
+}
+.btn {
+  display: block;
+  color: white;
+  background-color: #1d276c;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 14;
+  line-height: 21px;
+  padding: 16px;
+  text-decoration: none;
 }
 
 footer {
