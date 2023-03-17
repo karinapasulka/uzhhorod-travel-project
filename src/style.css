@@ -45,7 +45,6 @@ header a {
   text-decoration: none;
   background-color: white;
   padding: 16px 30px;
-  border-radius: 4px;
 }
 header a:hover {
   background-image: linear-gradient(
