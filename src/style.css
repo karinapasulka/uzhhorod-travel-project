@@ -205,8 +205,6 @@ footer a {
   section {
     padding: 30px;
   }
-}
-@media (max-width: 650px) {
   .card-header img {
     display: none;
   }
